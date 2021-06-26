@@ -9,7 +9,9 @@ import {Recipe} from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe [] =[
     new Recipe('A Test Recipe', 'this is a test',
-    'https://get.pxhere.com/photo/food-ingredient-cuisine-produce-meal-whole-food-dish-vegetable-vegan-nutrition-natural-foods-leaf-vegetable-recipe-bowl-local-food-Food-group-cookware-and-bakeware-lunch-breakfast-superfood-cooking-fast-food-spoon-cruciferous-vegetables-still-life-photography-meat-kitchen-utensil-egg-yolk-fruit-stew-vegetarian-food-side-dish-egg-white-accessory-fruit-menemen-delicacy-sundubu-jjigae-nightshade-family-frying-pan-root-vegetable-staple-food-bush-tomato-1636750.jpg')
+    'https://e7.pngegg.com/pngimages/188/226/png-clipart-veganism-plant-based-diet-lifestyle-travel-logo-vegan-recipe-logo.png'),
+    
+    new Recipe('My new Recipe', 'delicious meal', 'https://c8.alamy.com/comp/KM1R4E/original-recipe-grunge-rubber-stamp-on-white-background-vector-illustration-KM1R4E.jpg')
   ];
  
   constructor() { }
